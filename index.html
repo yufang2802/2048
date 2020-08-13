@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <title>2048</title>
+        <script defer type="text/javascript" src="appscripts/main.js">
+        </script>
+        <script type="text/javascript" src="jslibs/raphael.js"></script>
+    </head>
+
+  <body>
+    
+    <div class="container">
+      <header class="header">
+        <h2 id="header">Let's play 2048!</h2>
+      </header>
+
+      <nav class="sidebar">
+        <h3>HOW TO PLAY: </h3>
+        <p>Press the start button to get the clock running! Use the 'UP', 'DOWN', 'LEFT' AND 'RIGHT' buttons to move the tiles. When two tiles with the same number touch, they merge into one! </p>
+      </nav>
+
+      <article class="content">
+        <div id="mySVGCanvas" >
+        </div>
+      </article>
+
+      <aside class="sidebar">
+        <p id="scoreboard"></p>
+        <br>
+
+        <h4>Controls:</h4>
+        <input type="button" value="UP ↑" id="upButton">
+        <br><br>
+        <input type="button" value="DOWN ↓" id="downButton">
+        <br><br>
+        <input type="button" value="LEFT ←" id="leftButton">
+        <br><br>
+        <input type="button" value="RIGHT →" id="rightButton">
+      </aside>
+
+      <footer class="footer">
+        <h3>Join the numbers and get to the 2048 tile!</h3>
+      </footer>
+    </div>
+  
+
+  </body>
+</html>
+
+
